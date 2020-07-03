@@ -20,3 +20,5 @@ require_all "spiders"
 
 # require Kimurai configuration
 require_relative 'application'
+
+Dotenv.require_keys("INSTAGRAM_USERNAME", "INSTAGRAM_PASSWORD", "INSTAGRAM_TARGET_USERNAME")

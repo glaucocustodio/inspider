@@ -14,8 +14,8 @@ gem 'dotenv'
 
 # To debug spiders:
 group :development do
-  gem 'byebug', platforms: :mri
-  gem 'pry'
+  gem 'pry-byebug'
+  gem 'amazing_print'
 end
 
 # If you want to save items to the database, require one of these gems:

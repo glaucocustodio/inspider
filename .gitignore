@@ -16,3 +16,4 @@
 .env
 
 capybara-*.png
+results.json
