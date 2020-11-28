@@ -5,7 +5,8 @@ ruby '>= 2.5'
 
 # Framework
 gem 'kimurai', '~> 1.4'
-
+gem 'yt'
+gem 'googleauth'
 # Require files in directory and child directories recursively
 gem 'require_all'
 
